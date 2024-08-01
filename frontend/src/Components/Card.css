@@ -1,0 +1,30 @@
+.card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+  }
+  
+.card-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+.temperature-1{
+    font-weight: bold;
+}
+
+.heading2{
+  align-items: center;
+  color: rgb(243, 234, 71);
+
+}
+.date{
+  color:rgb(87, 236, 219);
+}
+.card-title{
+  color: white;
+  background-color: #0F71F2;
+  padding:10px;
+  
+}
